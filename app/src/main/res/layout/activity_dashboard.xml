@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/ly_1"
+        android:layout_width="411dp"
+        android:layout_height="203dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/shapebackground_03"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/minggu_tv"
+        android:layout_width="98dp"
+        android:layout_height="30dp"
+        android:text="Minggu 09 Oktober 2023"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <ImageView
+        android:id="@+id/icon_calender"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_calender"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <TextView
+        android:id="@+id/hallo_bambang"
+        android:layout_width="199dp"
+        android:layout_height="39dp"
+        android:text="Hallo,Bambang!"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <ImageView
+        android:id="@+id/icon_notification"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_notifications"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tv_image1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/jpg"
+        app:layout_constraintEnd_toEndOf="@+id/icon_notification"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icon_hand"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_hand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <LinearLayout
+        android:id="@+id/ly_2"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:background="@drawable/shapebackground_01"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="151dp">
+
+        <ImageView
+            android:id="@+id/icon_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_search" />
+
+        <TextView
+            android:id="@+id/search_tv"
+            android:layout_width="70dp"
+            android:layout_height="25dp"
+            android:text="Search"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ly_3"
+        android:layout_width="366dp"
+        android:layout_height="117dp"
+        android:background="@drawable/shapebackground_01"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="213dp">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/icon_fire"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_fire"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <ImageView
+        android:id="@+id/icon_time"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_time"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <TextView
+        android:id="@+id/tv_20"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:text="20"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/tv_140"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        android:text="140"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/tv_daily"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:text="Daily Activity"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <LinearLayout
+        android:id="@+id/ly_4"
+        android:layout_width="366dp"
+        android:layout_height="91dp"
+        android:background="@drawable/shapebackground_01"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="342dp">
+
+    <TextView
+        android:id="@+id/tv_140"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="/6.000"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/tv_140"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:text="4.321"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:id="@+id/tv_step"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:text="Steps"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <LinearLayout
+        android:id="@+id/ly_4"
+        android:layout_width="366dp"
+        android:layout_height="157dp"
+        android:background="@drawable/shapebackground_01"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="442dp"><![CDATA[>
+
+        ]]></LinearLayout>
+
+    <ImageView
+        android:id="@+id/tv_image2"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:src="@drawable/yeah"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/tv_education"
+        android:layout_width="107dp"
+        android:layout_height="35dp"
+        android:text="Education"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <TextView
+        android:id="@+id/tv_cegah"
+        android:layout_width="303dp"
+        android:layout_height="39dp"
+        android:text="Cegah Stunting, PNM Gelar Penluhan Edukasi Gizi pada Ibu Nasabah PNM"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="493dp" />
+
+    <ImageView
+        android:id="@+id/tv_image3"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:src="@drawable/yuhu"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="536dp" />
+
+    <TextView
+        android:id="@+id/tv_cegah"
+        android:layout_width="303dp"
+        android:layout_height="39dp"
+        android:text="6 Kebiasaan Pagi yang Bisa Mengurangi Stress,Yuk Praktikkan!"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
